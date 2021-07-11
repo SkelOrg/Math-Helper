@@ -29,6 +29,7 @@ def mediumQ():
     print(ansp)
     print(a1 // a2)
 
+# generates a hard difficulty question
 def hardQ():
     a1 = random.randint(55, 80) # generates random number between the two numbers in brackets
     a2 = random.randint(25, 30) # generates random number between the two numbers in brackets
@@ -39,6 +40,7 @@ def hardQ():
     print(ansp)
     print(a1 // a2)
 
+# generates a difficult question
 def difficultQ():
     a1 = random.randint(65, 90) # generates random number between the two numbers in brackets
     a2 = random.randint(30, 35) # generates random number between the two numbers in brackets
