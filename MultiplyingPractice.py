@@ -14,9 +14,14 @@ def easyQ():
     fin1 = str(a1)
     fin2 = str(a2)
     print(qdifficulties[0] + fin1 + op + fin2)
-    time.sleep(6.2)
+    givenanswer = input()
     print(ansp)
-    print(a1 * a2)
+    ans = a1 * a2
+    print(ans)
+    if givenanswer == str(ans):
+        print("Correct.")
+    else:
+        print("Incorrect.")
 
 # generates a medium difficulty question
 def mediumQ():
@@ -25,9 +30,14 @@ def mediumQ():
     fin1 = str(a1)
     fin2 = str(a2)
     print(qdifficulties[1] + fin1 + op + fin2)
-    time.sleep(7)
+    givenanswer = input()
     print(ansp)
-    print(a1 * a2)
+    ans = a1 * a2
+    print(ans)
+    if givenanswer == str(ans):
+        print("Correct.")
+    else:
+        print("Incorrect.")
 
 # generates a hard difficulty question
 def hardQ():
@@ -36,9 +46,14 @@ def hardQ():
     fin1 = str(a1)
     fin2 = str(a2)
     print(qdifficulties[2] + fin1 + op + fin2)
-    time.sleep(8)
+    givenanswer = input()
     print(ansp)
-    print(a1 * a2)
+    ans = a1 * a2
+    print(ans)
+    if givenanswer == str(ans):
+        print("Correct.")
+    else:
+        print("Incorrect.")
 
 # generates a difficult question
 def difficultQ():
@@ -47,9 +62,14 @@ def difficultQ():
     fin1 = str(a1)
     fin2 = str(a2)
     print(qdifficulties[3] + fin1 + op + fin2)
-    time.sleep(9)
+    givenanswer = input()
     print(ansp)
-    print(a1 * a2)
+    ans = a1 * a2
+    print(ans)
+    if givenanswer == str(ans):
+        print("Correct.")
+    else:
+        print("Incorrect.")
 
 easyQ()
 mediumQ()
