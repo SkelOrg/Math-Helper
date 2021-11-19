@@ -1,6 +1,5 @@
 # imports some libraries
 import random
-import time
 
 # some variables
 op = " ÷ "
@@ -13,7 +12,7 @@ def easyQ():
     a2 = random.randint(15, 20) # generates random number between the two numbers in brackets
     fin1 = str(a1)
     fin2 = str(a2)
-    print(qdifficulties[0] + fin1 + op + fin2)
+    print(f"{qdifficulties[0]}{fin1}{op}{fin2}")
     givenanswer = input()
     print(ansp)
     ans = a1 // a2
@@ -29,7 +28,7 @@ def mediumQ():
     a2 = random.randint(20, 25) # generates random number between the two numbers in brackets
     fin1 = str(a1)
     fin2 = str(a2)
-    print(qdifficulties[1] + fin1 + op + fin2)
+    print(f"{qdifficulties[1]}{fin1}{op}{fin2}")
     givenanswer = input()
     print(ansp)
     ans = a1 // a2
@@ -45,7 +44,7 @@ def hardQ():
     a2 = random.randint(25, 30) # generates random number between the two numbers in brackets
     fin1 = str(a1)
     fin2 = str(a2)
-    print(qdifficulties[2] + fin1 + op + fin2)
+    print(f"{qdifficulties[2]}{fin1}{op}{fin2}")
     givenanswer = input()
     print(ansp)
     ans = a1 // a2
@@ -61,7 +60,7 @@ def difficultQ():
     a2 = random.randint(30, 35) # generates random number between the two numbers in brackets
     fin1 = str(a1)
     fin2 = str(a2)
-    print(qdifficulties[3] + fin1 + op + fin2)
+    print(f"{qdifficulties[3]}{fin1}{op}{fin2}")
     givenanswer = input()
     print(ansp)
     ans = a1 // a2
